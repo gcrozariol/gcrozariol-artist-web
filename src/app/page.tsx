@@ -11,8 +11,6 @@ import projects from '../data/projects.json'
 import { PlayCircle } from 'lucide-react'
 import SpotifyCard from '@/components/spotify-card'
 
-const year = new Date().getFullYear()
-
 export default function Home() {
   return (
     <>
