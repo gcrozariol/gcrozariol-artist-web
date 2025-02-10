@@ -1,0 +1,48 @@
+{
+  "youtube": [
+    {
+      "id": 5,
+      "url": "https://youtu.be/6xqNEJUTYdc",
+      "title": "Guilherme Crozariol - Bow Down [I Prevail]",
+      "cover": "https://i.ytimg.com/vi/6xqNEJUTYdc/hq720.jpg"
+    },
+    {
+      "id": 4,
+      "url": "https://youtu.be/_Yred-7YcBo",
+      "title": "Guilherme Crozariol - Brainwashed (While She Sleeps)",
+      "cover": "https://i.ytimg.com/vi/_Yred-7YcBo/hq720.jpg"
+    },
+    {
+      "id": 3,
+      "url": "https://youtu.be/BQjJweqFKWA",
+      "title": "Guilherme Crozariol - Welcome To Horrorwood [ICE NINE KILLS]",
+      "cover": "https://i.ytimg.com/vi/BQjJweqFKWA/hq720.jpg"
+    },
+    {
+      "id": 2,
+      "url": "https://youtu.be/KMtcCx5Gu9U",
+      "title": "Guilherme Crozariol - Hereafter [Architects]",
+      "cover": "https://i.ytimg.com/vi/KMtcCx5Gu9U/hq720.jpg"
+    },
+    {
+      "id": 1,
+      "url": "https://youtu.be/7DZWNFSIQQM",
+      "title": "Guilherme Crozariol & Kasey Karlsen - The American Nightmare [ICE NINE KILLS]",
+      "cover": "https://i.ytimg.com/vi/7DZWNFSIQQM/hq720.jpg"
+    }
+  ],
+  "spotify": [
+    {
+      "id": 1,
+      "url": "https://open.spotify.com/embed/album/70fCoZAC7HzQoiWEG5HiKi?utm_source=generator"
+    },
+    {
+      "id": 2,
+      "url": "https://open.spotify.com/embed/album/25lyYMiE0A6UpKabSEECx5?utm_source=generator"
+    },
+    {
+      "id": 3,
+      "url": "https://open.spotify.com/embed/track/43CPjFTYBSwNvmawUkC0jT?utm_source=generator"
+    }
+  ]
+}
