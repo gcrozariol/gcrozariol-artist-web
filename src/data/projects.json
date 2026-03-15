@@ -34,15 +34,23 @@
   "spotify": [
     {
       "id": 1,
-      "url": "https://open.spotify.com/embed/album/70fCoZAC7HzQoiWEG5HiKi?utm_source=generator"
+      "url": "https://open.spotify.com/embed/album/4zeiMZpsmKJn8cmD8hzJlb?utm_source=generator"
     },
     {
       "id": 2,
-      "url": "https://open.spotify.com/embed/album/25lyYMiE0A6UpKabSEECx5?utm_source=generator"
+      "url": "https://open.spotify.com/embed/track/0xokSyZC9z5sm4cTAWHko7?utm_source=generator"
     },
     {
       "id": 3,
       "url": "https://open.spotify.com/embed/track/43CPjFTYBSwNvmawUkC0jT?utm_source=generator"
+    },
+    {
+      "id": 4,
+      "url": "https://open.spotify.com/embed/album/70fCoZAC7HzQoiWEG5HiKi?utm_source=generator"
+    },
+    {
+      "id": 5,
+      "url": "https://open.spotify.com/embed/album/25lyYMiE0A6UpKabSEECx5?utm_source=generator"
     }
   ]
 }
