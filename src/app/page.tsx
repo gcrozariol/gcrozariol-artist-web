@@ -31,34 +31,36 @@ export default function Home() {
           </header>
           <div className="flex flex-col gap-10 py-10 px-10 lg:px-20">
             <p className="font-bold text-3xl">DRUMMING</p>
-            <Carousel className="w-full transition-all px-5 lg:px-0">
-              <CarouselContent>
-                {projects.youtube.map((item, index) => (
-                  <CarouselItem
-                    key={index}
-                    className="md:basis-1/2 lg:basis-1/3 hover:cursor-pointer"
-                  >
-                    <a href={item.url} target="_blank" className="p-2">
-                      <Card className="overflow-hidden border-zinc-700">
-                        <CardContent className="relative p-0">
-                          <div className="absolute w-full h-full flex items-center justify-center opacity-0 hover:opacity-50 transition-all bg-black">
-                            <PlayCircle color="white" size={56} />
-                          </div>
-                          <Image
-                            src={item.cover}
-                            alt=""
-                            width={1280}
-                            height={720}
-                          />
-                        </CardContent>
-                      </Card>
-                    </a>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <CarouselPrevious className="bg-black" />
-              <CarouselNext className="bg-black" />
-            </Carousel>
+            <div className="px-5 lg:px-0">
+              <Carousel className="w-full transition-all">
+                <CarouselContent>
+                  {projects.youtube.map((item, index) => (
+                    <CarouselItem
+                      key={index}
+                      className="md:basis-1/2 lg:basis-1/3 hover:cursor-pointer"
+                    >
+                      <a href={item.url} target="_blank" className="p-2">
+                        <Card className="overflow-hidden border-zinc-700">
+                          <CardContent className="relative p-0">
+                            <div className="absolute w-full h-full flex items-center justify-center opacity-0 hover:opacity-50 transition-all bg-black">
+                              <PlayCircle color="white" size={56} />
+                            </div>
+                            <Image
+                              src={item.cover}
+                              alt=""
+                              width={1280}
+                              height={720}
+                            />
+                          </CardContent>
+                        </Card>
+                      </a>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious className="bg-black" />
+                <CarouselNext className="bg-black" />
+              </Carousel>
+            </div>
           </div>
           <div className="flex flex-col gap-10 px-10 lg:px-20 mb-20">
             <p className="font-bold text-3xl">PRODUCED / MIXED</p>
