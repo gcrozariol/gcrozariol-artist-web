@@ -8,5 +8,5 @@ export default function SpotifyCard({ url }: { url: string }) {
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       loading="lazy"
     ></iframe>
-  )
+  );
 }
