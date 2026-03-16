@@ -1,17 +1,13 @@
 import Image from "next/image";
-import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
-  CarouselItem,
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import projects from "../data/projects.json";
-import { PlayCircle } from "lucide-react";
 import SpotifyCard from "@/components/spotify-card";
 import YouTubeCard from "@/components/youtube-card";
-import { url } from "inspector";
 
 export default function Home() {
   return (

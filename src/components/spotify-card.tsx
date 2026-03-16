@@ -1,4 +1,8 @@
-export default function SpotifyCard({ url }: { url: string }) {
+interface SpotifyCardProps {
+  url: string;
+}
+
+export default function SpotifyCard({ url }: SpotifyCardProps) {
   return (
     <iframe
       src={url}
